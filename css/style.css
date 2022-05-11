@@ -1,80 +1,168 @@
-header{
-    
-    color: blue;
+body{
+    background-color: rgb(255, 255, 255);
 }
-
-
-h1{
-    color: #3d92ff;
-    font-family: sans-serif;
-    font-size: 35px;
-    margin-left: 15%;
+.fullproject{
+    margin: 0px 40px;
 }
-h2{
-    color: #3d8bcd;
-    font-style: initial;
+.name{
+    margin: 53px 0px 0px 0px;
+    padding: 56px 0 0 0;
+}
+.name h6{
+    font-size: 46px;
+}
+.name p{
+    font-size: 33px;
+    margin: 12px 0px 0px 0px;
+}
+.personal a{
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    margin: 3px 10px 3px 10px;
 }
-h3{
-    color: #3d8bcd;
-   
-    font-family: 'Roboto', sans-serif;
+.summary{
 
 }
-p{
-    margin-left: 3%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+.summary h2{
+    font-size: 30px;
+    margin-top: 12px;
 }
-li{
-    color: black;
-    margin-left: 5%;
-   
-     
+.summary p{
+    padding: 23px 84px 4px 113px;
+    font-size: 21px;
+    line-height: 28px;
+}
+.professional{
 
-} 
-a{
-    margin-right: 2%;
 }
+.profes1 h3 h4 ul li{
 
-   
+}
+.profes2 h3 h4 p ul li{
 
-.ln{
-    margin-left: 30%;
-    font-size: 20px;
 }
-.sum {
-    color: black;
-    font-size: 12px;
+.education{
+    font-size: 30px;
+    margin: 50px 0px 0px 86px;
 }
+.education h2{
 
-html{
-    background-color: #fff;
-    margin-left: 5%;
-    margin-right: 5%;
 }
-.edu{
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-
-   
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-#stl{
-    width:100%;text-align:left;margin-left:0;
-    background-color: #85a6c9;
-}
-#ed{
-    text-align: center;
-    }
 table, tr, th, td{
-    table-layout: auto;
-    border: 1px solid;
-    text-align: center;
-    margin-left: 3%;
-    background-color: aliceblue ;
+    border: 1px solid black;
+}
+.contacct{
 
 }
-.akn{
-    line-height: 27px;
-} 
+
+.name1{
+    display: flex;
+    margin: 0px 0px 0px 70px;
+}
+.summary1{
+    display: flex;
+    margin: 34px 0px 0px 90px;
+}
+.name2 h6{
+    background-color: blue;
+    width: 5px;
+    height: 118px;
+    padding: 0px 0 0px 5px;
+    margin: 92px 10px 0 18px;
+}
+.personal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 40px 0px 0px 85px;
+    padding: 21px 0px;
+}
+.personal a{
+    text-decoration: none;
+}
+.summary2 h6{
+    background-color: blue;
+    width: 5px;
+    height: 50px;
+    padding: 0px 0 0px 5px;
+    margin: 0px 15px 0 0;
+}
+.profes12{
+    display: flex;
+    margin: 34px 0px 0px 90px;
+}
+.profes13 h6{
+    background-color: blue;
+    width: 5px;
+    height: 50px;
+    padding: 0px 0 0px 5px;
+    margin: 0px 15px 0 0;
+}
+.profes14 h1{
+    margin: 10px 0 44px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.profes15 h3{
+    margin: -16px 0px 24px 92px;
+    font-size: 24px;
+}
+.professional h2 p{
+    margin-left: 95px;
+    font-size: 27px;
+}
+.professional ul li{
+    font-size: 22px;
+    margin: 30px 0px -18px 147px;
+}
+.profes2{
+
+}
+.profes2 h3{
+    margin: 50px 0px 23px 95px;
+    font-size: 27px;
+}
+.profes2 h4{
+    margin: -2px 0px 25px 95px;
+    font-size: 27px;
+}
+.profes2 p{
+    margin: 7px 27px 10px 150px;
+    font-size: 22px;
+}
+.contact{
+
+}
+.contact h2{
+    margin: 0px 0px 30px 80px;
+    font-size: 30px;
+}
+.contact form{
+    margin: 0 150px;    
+}
+.contact input{
+    width: 135px;
+    display: inline-block;
+    margin: 0 0 10px 50px;
+}
+button{
+ 
+}
+.contact .username{
+    font-size: 30px;
+}
+.contact .phone{
+    font-size: 30px;
+}
+.contact .address{
+    font-size: 30px;
+}
+.contact .email{
+    font-size: 30px;
+}
+.username{
+    
+}
